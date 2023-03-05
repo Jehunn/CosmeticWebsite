@@ -1,0 +1,789 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Syne', sans-serif;
+}
+
+/* Header start */
+.container {
+    max-width: 1440px;
+    width: 88.7%;
+    margin: 0 auto;
+}
+
+#header {
+    background: #f5f4f2;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.left-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left-con>h1 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+
+.left-con>a>img {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.right-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>ul>li>div:hover{
+    border-bottom: 2.5px solid black;
+
+}
+
+.nav>ul>li>div>a {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.platform>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.platform>ul>li>a>svg {
+    width: 15px;
+}
+
+/* Header end */
+
+/* Karusel section Start*/
+
+#karusel {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/background9.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 5rem 0;
+}
+
+#karusel::before {
+    content: '';
+    position: absolute;
+    opacity: 0.6;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel1
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.karusel-title {
+    position: relative;
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 4rem;
+
+}
+
+.karusel-title>h1 {
+    position: relative;
+    font-family: 'Syne', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    padding-right: 45px;
+    letter-spacing: 3px;
+
+}
+
+.karusel-title>p {
+
+    color: #232323;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.read-btn {
+    margin-top: 24px;
+    border: 2px solid #ff2b09;
+    ;
+    width: 205px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.read-btn:hover{
+    background-color: #ff2b09;
+    transition: 1s;
+
+}
+.read-btn>a:hover{
+    color: white;
+}
+
+.read-btn>a {
+
+    padding: 25px;
+    color: #121212;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.karusel-img {
+    position: relative;
+    padding-right: 15px;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.karusel-img>img {
+    width: 90%;
+    position: relative;
+    
+ 
+}
+
+/* About section start */
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card-icon>svg {
+    width: 80px;
+
+    fill: #ff2b09;
+    margin-bottom: 2rem;
+}
+
+.about {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+}
+
+.about-title>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 85px;
+
+}
+
+.about-card {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 20px 30px 50px;
+    margin: 25px 0 0;
+    width: 86%;
+}
+
+.card-title>h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #23252f
+}
+
+.card-title>p {
+    color: #232323;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+/* About section end */
+
+/*Property section start*/
+#property {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+
+.property-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+
+.prop-con-left {
+    width: 50%;
+    padding: 0 7rem;
+}
+
+.prop-con-right {
+    width: 50%;
+}
+
+.prop-con-right>img {
+    width: 100%;
+}
+
+.prop-con-left>h1 {
+    text-transform: uppercase;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+
+}
+
+.ingridents {
+    border-bottom: 1px solid black;
+}
+
+.ingridents>p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    color: #626262;
+    padding-top: 9px;
+    padding-bottom: 1.5rem;
+}
+
+.safety {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.safety>p,
+.quality>p,
+.vegan>p {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.0525rem;
+    line-height: 1.5;
+}
+
+.quality {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vegan {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*Property section end*/
+
+/*Cheklist section start*/
+
+#checklist {
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+
+.checklist {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+
+}
+
+.checklist>div {
+    padding: 12rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checklist>div>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    color: #232323;
+
+
+}
+
+.link {
+    color: #626262;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+
+}
+.link:hover{
+    color: #ff2b09;
+}
+.get-link{
+    width: 20%;
+    margin: 0 auto;
+}
+.get-link:hover{
+    border-bottom: 2.5px solid #ff2b09;
+    
+}
+
+/*Cheklist section end*/
+
+/*Fabulous section start*/
+#fabulous {
+    padding: 5rem 0;
+}
+
+.fabulous-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.fabulous-left-con {
+    width: 50%;
+
+}
+
+.fabulous-left-con>img {
+    width: 100%;
+}
+
+.fabulous-right-con {
+    width: 50%;
+}
+
+.fabulous-right-con>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding-right: 6rem;
+}
+
+.p-ligula {
+    font-size: 1.0525rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+}
+
+.p-italic {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4375rem;
+    line-height: 1.5;
+    margin-top: 0.7rem;
+    color: #626262;
+}
+
+/*Fabulous section end*/
+
+/* Gift section start */
+#gift {
+    padding: 5rem 0;
+}
+
+.gift {
+    display: flex;
+    text-align: center;
+
+}
+
+.gift-left-con {
+    width: 50%;
+}
+
+.gift-left-con>img {
+    width: 100%;
+}
+
+.gift-right-con {
+    width: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.gift-right-con>div>img {
+    width: 30%;
+}
+
+.gift-right-con>div>h2 {
+    font-size: 1.875rem;
+    line-height: 1.1;
+    letter-spacing: 1.5px;
+
+
+}
+.get-link2{
+    width: 16%;
+    margin: 0 auto;
+}
+.get-link2:hover{
+    border-bottom: 2.5px solid #ff2b09;
+}
+
+/* Gift section end */
+
+/*Care-cream section start*/
+#care-cream {
+    padding: 5rem 0;
+}
+
+.care-cream {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.care-cream-left-con {
+    width: 50%;
+
+}
+
+.care-cream-left-con>h1 {
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.care-cream-right-con {
+    width: 50%;
+    display: flex;
+    gap: 32px;
+}
+
+.left-side {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+
+.price {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.right-side {
+
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*Care-cream section end*/
+
+/*Best-seller section start*/
+#best-seller{
+    padding: 5rem 0;;
+}
+
+.best-products {
+    display: flex;
+    gap: 25px;
+}
+
+.product-care-cream {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg
+);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-relief {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-body {
+    background-image: url(https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title{
+    padding-bottom: 80px;
+}
+
+.title>h1 {
+    font-weight: bold;
+    font-size: 2.9376rem;
+    line-height: 1.1;
+    text-align: center;
+}
+/*Best-seller section end*/
+
+/* Our products section start */
+#our-products{
+    padding: 5rem 0;
+}
+.up-products{
+    display: flex;
+    gap:25px;
+    margin-bottom:25px
+}
+.bottom-products{
+    display: flex;
+    gap:25px
+
+}
+/* Our products section end */
+
+/*Recommended section start*/
+#recommended{
+    padding: 5rem 0;
+
+}
+.recommends>img{
+    width: 100%;
+}
+/*Recommended section end*/
+
+/*Contact section start*/
+#contact{
+    padding: 5rem 0;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-left{
+    width: 40%;
+    padding-right: 5rem;
+    padding-left: 4rem;
+}
+.contact-left>h2{
+    font-size: 1.875rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.contact-links{
+    margin-top:10px
+}
+
+.contact-links>ul>li>a{
+    color: #0c0c0c;
+    font-size: 1.0525rem;
+    line-height: 1px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.contact-right{
+    width: 60%;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    
+}
+.contact-right> form{
+    width:90%;
+}
+
+.name-email{
+    display: flex;
+    width: 100%;
+
+}
+.name-email>div{
+    width: 50%;
+}
+
+.name-email>div>input::placeholder{
+    padding: 25px ;
+
+}
+.name-email>div>input{
+    height: 70px;
+    width: 100%;
+    border: 1px solid#cdcdcb;
+}
+
+textarea{
+    border: 1px solid #cdcdcb;
+}
+textarea::placeholder{
+    padding: 25px;;
+}
+
+.contact-link:hover{
+    color: #ff2b09;
+    transition: 0.2s;
+}
+.cursor-text:hover{
+    cursor: text;
+    color: #ff2b09;
+    transition: 0.2s;
+}
+
+/*Contact section end*/
+
+/* Footer start */
+
+
+
+#footer{
+    padding: 5rem 0;
+    background-color: #f2f2f2;
+}
+.footer{
+    display: flex;
+    gap:8rem;
+    
+}
+.footer-img{
+    padding-left: 19px;
+}
+.footer-img>img{
+    width: 140px;
+}
+.footer-left{
+    width: 33.3%;
+    display: flex;
+    gap: 5rem;
+}
+.footer-platforms{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.footer ul li a{
+    display: inline-block;
+    font-size: 1rem;
+    color: #020103;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.footer-right-con>h4{
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+.footer-form>form>input::placeholder{
+    padding: 0.6rem 0.6rem;
+    font-size: 16px;
+}
+.footer-form>form>input {
+    padding: 1rem;
+    border: 1px solid #e7e7e7;
+    background-color: #f2f2f2;
+    margin-top: 17px;
+}
+button{
+    padding: 0.7rem 1.2rem;
+   color: black;
+    background: #f2f2f2;
+    margin-left :5px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+button>a{
+  
+}
+button>a:hover{
+    color: white;
+    
+}
+.footer-left-links>ul>li>a:hover,
+.footer-left-con>ul>li>a:hover{
+color: #ff2b09;
+transition: 0.2s;
+}
+
+/*Footer section end*/
+
